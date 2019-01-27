@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "aci-rg" {
   name     = "aci-vsts"
-  location = "westus2"
+  location = "westeurope"
 }
 
 resource "random_id" "randomId" {
